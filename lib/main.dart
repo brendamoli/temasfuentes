@@ -54,7 +54,9 @@ class TextCustomizerHomePage extends StatefulWidget {
                 },
               ),
             ),
-
+            ListTile(
+              title: Text('Color de texto'),
+            ),
             ListTile(
               title: DropdownButton<Color>(
                 value: selectedTextColor,
