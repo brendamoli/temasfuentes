@@ -10,19 +10,14 @@ class TextCustomizerApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: TextCustomizerHomePage(),
     );
-  }   //ghghghghghghgh
+  }
 
 class TextCustomizerHomePage extends StatefulWidget {
   @override
   _TextCustomizerHomePageState createState() => _TextCustomizerHomePageState();
 }
 
-class _TextCustomizerHomePageState extends State<TextCustomizerHomePage> {
-  String selectedFont = 'Arial';
-  Color selectedTextColor = Colors.black;
 
-  final List<String> fontStyles = ['Arial', 'Helvetica', 'Roboto', 'Open Sans'];
-  final List<Color> textColors = [Colors.black, Colors.red, Colors.blue, Colors.green];
 
   @override
   Widget build(BuildContext context) {
